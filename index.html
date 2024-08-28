@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream</title>
+
+    <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel=" preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Icecream</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="#header"><i class="fa-solid fa-ice-cream"></i></a></p>
+            <p class="navbar-link"><a href="#service">Brands</a></p>
+            <p class="navbar-link"><a href="#new-arrival">Flavor Finder</a></p>
+        </div>
+        
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()" >
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="#header">Home</a></p>
+        <p class="side-navbar-link"><a href="#service">Brands</a></p>
+        <p class="side-navbar-link"><a href="#new-arrival">Flavor</a></p>
+           </div>
+</div>
+
+
+ <!--Header-->
+   
+<div id="header">
+     <div>
+        <h1>The best ice cream brands
+        </h1>
+        <p>All your faves,all in one place.</p>
+        <button class="header-button">Get the Scoop!</button>
+    </div>
+    <div>
+        <img class="header-image" src="https://cdn.pixabay.com/photo/2015/09/05/23/54/ice-cream-926426_640.jpg">
+    </div>
+
+</div>
+<!--Service-->
+<div id="service">
+    <div class="service-container-1">
+        <div>
+            <h2>We provide Best Flavor's</h2>
+        </div>
+        <div>
+            <p>|| ICECREAM BRANDS ||</p>
+        </div>
+    </div>
+    <div class="service-container-2">
+        <div>
+            <i class="fa-solid fa-ice-cream"></i>
+            <h4>Drumstick</h4>
+            <p>Your favorite,classic hand-held frozen snack</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-ice-cream"></i>
+            <h4> EDY'S</h4>
+            <p>Rmixing since forever,East of the Rockies</p>
+        </div>
+    </div>
+</div>
+
+<div id="new-arrival">
+    <div class="new-arrival-container">
+        <img src="https://media.gettyimages.com/id/649484602/photo/ice-cream-drumstick-outdoors.jpg?s=612x612&w=0&k=20&c=CpGCMdIay9tLmXP4nkyqc0ooSJKxw3I25hFAF5QX-n8=" alt="">
+    </div>
+    <div class="new-arrival-container">
+        <img src="https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/edy's/products/classics/Edys-48oz-3D-CnC.png/_jcr_content/renditions/featurecard.png"alt="">
+    </div>
+</div>
+
+<!--Footer-->
+
+<div class="footer">
+    <div class="footer-container">
+       <div class="footer-box-1">
+         <h2 class="headingText">ICECREAM</h2>
+         <p>
+            Get fresh recipes, cooking tips, deal alerts, and more!</p>
+         <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-x-twitter" style="color:#ffffff;"></i>
+         </div>
+       </div>
+    </div>
+    <p>© 2023 Froneri. All rights reserved.</p>
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>
